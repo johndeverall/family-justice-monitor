@@ -2,7 +2,7 @@ module.exports = function(eleventyConfig) {
   // Copy static assets to output
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/js");
-  
+
   // Set custom directories
   return {
     dir: {
@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
     },
     templateFormats: ["html", "md", "njk"],
     htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "njk"
+    markdownTemplateEngine: "njk",
+    pathPrefix: "/family-justice-monitor/"
   };
 };

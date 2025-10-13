@@ -7,12 +7,12 @@
         <button class="menu-toggle" aria-label="Toggle menu">☰</button>
         <nav>
             <ul>
-                <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
-                <li><a href="/about/" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
-                <li><a href="/governance/" {% if page.url == "/governance/" %}class="active"{% endif %}>Governance</a></li>
-                <li><a href="/research/" {% if page.url == "/research/" %}class="active"{% endif %}>Research</a></li>
-                <li><a href="/get-involved/" {% if page.url == "/get-involved/" %}class="active"{% endif %}>Get Involved</a></li>
-                <li><a href="/contact/" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
+                <li><a href="{{ '/' | url }}" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+                <li><a href="{{ '/about/' | url }}" {% if page.url == "/about/" %}class="active"{% endif %}>About</a></li>
+                <li><a href="{{ '/governance/' | url }}" {% if page.url == "/governance/" %}class="active"{% endif %}>Governance</a></li>
+                <li><a href="{{ '/research/' | url }}" {% if page.url == "/research/" %}class="active"{% endif %}>Research</a></li>
+                <li><a href="{{ '/get-involved/' | url }}" {% if page.url == "/get-involved/" %}class="active"{% endif %}>Get Involved</a></li>
+                <li><a href="{{ '/contact/' | url }}" {% if page.url == "/contact/" %}class="active"{% endif %}>Contact</a></li>
             </ul>
         </nav>
     </div>

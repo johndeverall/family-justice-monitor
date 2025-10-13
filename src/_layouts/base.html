@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if title %}{{ title }} - {% endif %}Family Justice Monitor NZ</title>
     <meta name="description" content="{{ description or 'Independent monitoring of New Zealand\'s family justice system' }}">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 <body>
     {% include "header.html" %}
@@ -16,6 +16,6 @@
 
     {% include "footer.html" %}
 
-    <script src="/js/main.js"></script>
+    <script src="{{ '/js/main.js' | url }}"></script>
 </body>
 </html>
