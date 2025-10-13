@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if title %}{{ title }} - {% endif %}Family Justice Monitor NZ</title>
+    <meta name="description" content="{{ description or 'Independent monitoring of New Zealand\'s family justice system' }}">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    {% include "header.html" %}
+
+    <main>
+        {{ content | safe }}
+    </main>
+
+    {% include "footer.html" %}
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
