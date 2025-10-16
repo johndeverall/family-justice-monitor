@@ -13,7 +13,6 @@ module.exports = function(eleventyConfig) {
     },
     templateFormats: ["html", "md", "njk"],
     htmlTemplateEngine: "njk",
-    markdownTemplateEngine: "njk",
-    pathPrefix: "/family-justice-monitor/"
+    markdownTemplateEngine: "njk"
   };
 };
