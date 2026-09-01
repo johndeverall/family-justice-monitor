@@ -76,15 +76,21 @@ Court's paper-based case administration. Will your party commit to funding
 this programme through to completion, and on what timeline?
 
 **4. Access to legal representation**
-Rising numbers of parents are self-representing in the Family Court, citing
-cost. Does your party support expanding legal aid eligibility or funding for
-family law matters, and if so, how?
+The proportion of Family Court cases involving a self-represented party has
+nearly tripled, from 4.4% in 2014 to 12.8% in 2024, and family legal aid cost
+$75.9 million in the year to June 2025. Does your party support expanding
+legal aid eligibility or funding for family law matters, and if so, how?
 
 **5. Family violence and litigant abuse**
 The Victims of Family Violence (Strengthening Legal Protections) Legislation
 Act 2025 introduces new tools against "litigant abuse" — using court
-proceedings themselves to harass a former partner. Does your party consider
-this sufficient, or would you propose further protections?
+proceedings themselves to harass a former partner. Separately, the average
+time to serve a temporary protection order has risen from 7 days in 2021 to
+10 days in 2024 (easing slightly to 9 days in 2025), with nearly half of
+temporary orders in 2025 taking 4 or more days to reach the respondent. Does
+your party consider the 2025 Act sufficient, would you propose further
+protections, and what would your party do to reduce service delays for
+urgent protection orders?
 
 **6. Outcomes for children**
 What data, if any, does your party believe should be collected and published
@@ -119,3 +125,25 @@ to address this disparity in line with Te Tiriti o Waitangi obligations?
   protection custody, not the whole Family Court caseload — do not extend it
   to a blanket claim about "family justice proceedings" generally without
   further sourcing.
+- **Self-representation: 4.4% (2014) → 12.8% (2024) of active Family Court
+  cases** — Ministry of Justice data, reported by NZ Herald, "Continued rise
+  in legal self-representation adding to justice delay concerns."
+  https://www.nzherald.co.nz/nz/continued-rise-in-legal-self-representation-adding-to-justice-delay-concerns/L3DBYU5PONDD3JZSXK4257VKQI/
+- **Family legal aid: $75,875,919.90 for the year ended June 2025** — official
+  Ministry of Justice dataset "Justice Statistics: Legal aid grants 2025," via
+  Figure.NZ. https://figure.nz/chart/7j9EnXTAvucSPuqb
+  Scope note: excludes Duty Lawyer, Police Detention Legal Assistance, and
+  Family Legal Advice Service spend, since those aren't delivered via legal
+  aid grants — the true total cost of state-funded family legal help is
+  somewhat higher than this figure alone.
+- **Protection order service time: 7 days (2021) → 10 days (2024) → 9 days
+  (2025); 1,394 orders in 2025 took 4+ days to serve** — data released under
+  the Official Information Act to Newstalk ZB, "'One day is too long':
+  Victims wait days for protection orders to be served."
+  https://www.newstalkzb.co.nz/news/national/one-day-is-too-long-victims-wait-days-for-protection-orders-to-be-served/
+  Scope note: applies specifically to temporary (without-notice) protection
+  orders, not all protection orders. I could not directly fetch this article
+  to verify the exact source sentence (site blocks automated access) — the
+  figures rest on independently-corroborating search-result summaries citing
+  the same numbers, not a confirmed direct quote. Worth a manual read-through
+  before treating as fully verified.
