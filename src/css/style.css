@@ -10,6 +10,25 @@
   --border-color: #e2e8f0;
   --white: #ffffff;
   --max-width: 1200px;
+
+  /* Data visualisation palette (research pages). Chosen separately from the
+     brand colors above: --primary-color and --secondary-color read as gray to
+     a colorblind viewer once used as chart series (chroma too low), so chart
+     marks use their own validated set instead. Order is fixed and meaningful -
+     see /research/media-analysis/ methodology note. */
+  --chart-series-1: #2a78d6; /* blue */
+  --chart-series-2: #eb6834; /* orange */
+  --chart-series-3: #1baf7a; /* aqua */
+  --chart-series-4: #eda100; /* yellow */
+  --chart-series-5: #e87ba4; /* magenta */
+  --chart-series-6: #4a3aa7; /* violet */
+  /* Sentiment is a polarity (negative <-> positive), so it uses a genuine
+     diverging pair rather than a semantic red/green "bad/good" pairing -
+     blue/red validated together with a neutral gray midpoint. */
+  --chart-sentiment-negative: #e34948;
+  --chart-sentiment-positive: #256abf;
+  --chart-sentiment-neutral: #8a8f98;
+  --chart-track: #eef1f5;
 }
 
 * {
@@ -404,4 +423,157 @@ footer {
   background-color: var(--bg-light);
   padding: 2rem;
   border-radius: 8px;
+}
+
+/* Research data dashboard (media coverage analysis) */
+
+.data-caveat {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #78350f;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  margin: 1.5rem 0;
+}
+
+.stat-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.stat-tile {
+  background: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.stat-tile .stat-value {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.stat-tile .stat-label {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-top: 0.4rem;
+}
+
+.bar-chart {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: minmax(160px, 240px) 1fr auto;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.bar-row .bar-label {
+  font-size: 0.92rem;
+  color: var(--text-color);
+}
+
+.bar-row .bar-track {
+  display: block;
+  background: var(--chart-track);
+  border-radius: 4px;
+  height: 22px;
+  overflow: hidden;
+}
+
+.bar-row .bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  min-width: 4px;
+}
+
+.bar-row .bar-count {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.9rem;
+  color: var(--text-light);
+  min-width: 2.5rem;
+  text-align: right;
+}
+
+.sentiment-legend {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  font-size: 0.88rem;
+  color: var(--text-light);
+}
+
+.sentiment-legend .legend-swatch {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 2px;
+  margin-right: 0.4rem;
+  vertical-align: middle;
+}
+
+.data-table-wrapper {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 0.65rem 0.9rem;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: top;
+}
+
+.data-table th {
+  color: var(--text-light);
+  font-weight: 600;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.tag-pill {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--white);
+  white-space: nowrap;
+}
+
+.methodology-note {
+  border-left: 4px solid var(--primary-color);
+  padding: 0.25rem 0 0.25rem 1.5rem;
+  margin: 1.5rem 0;
+  color: var(--text-light);
 }

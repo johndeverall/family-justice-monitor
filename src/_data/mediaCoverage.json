@@ -1,0 +1,79 @@
+{
+  "generatedAt" : "2026-09-01T08:39:03.532203Z",
+  "totalTagged" : 9,
+  "totalRelevant" : 4,
+  "articles" : [ {
+    "title" : "Judge finds dad’s livestreams about ex were abusive, harmful - RNZ",
+    "source" : "RNZ",
+    "url" : "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTU0tWnhVRDBwQ0plRE9xM0pRZDFZb2lDSnNCNzJQeEdQTDZuVGNBVHgtVWEtY3lqLWZLWHlMSFRpR21wTEZlV0xTS0ZDbTRMLUhqbDBRUU9jYTdPWjRuaXYtYmkwM3VEcnkwOFBmQWdnYzhvNTJBUzNZeWVDdkhteVNmZ0UzNDJTWDRMZE9DRGV6NHk4U1k0OHlYbFllLVdLakVVWWV0MDRxRzdmV1BrenlR?oc=5",
+    "publishedAt" : "2026-08-29T11:22:12Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "sentiment" : "positive",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "taggedAt" : "2026-09-01T08:34:48.158547Z"
+  }, {
+    "title" : "The Law Association tells Parliament expanding community magistrates' criminal trial powers will be counterproductive - lawnews.nz",
+    "source" : "lawnews.nz",
+    "url" : "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPMXdOUlIwX1FZYktJbHl5alppTHZpcm04RmRGUmVTUWZReXlnWnZLdzRnUFMtMjNEU0VDdVo3bVRZRGM5THl4b29LaVRjdjBleXhmWjUxQTlMcENpS1JlbXRDM2NRMDhFOXFnSW55T0lBQTdwUlRSU2V1TDZqaVFqVlJtU1ZBOEY3UHI1REF2WDN2RVl0dFp2blJ1ZnZ6eVZvT3NJd2FkTmNOV1JhTDJxbGkwSDlIdmNLR3hGYW5lUW1ZTFFHbl8zbkNIOUs2Z0lGQmJLeVYwbW02ZnllbnFOeA?oc=5",
+    "publishedAt" : "2026-08-30T07:00:00Z",
+    "category" : "court_process_and_delays",
+    "sentiment" : "mixed",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "taggedAt" : "2026-09-01T08:28:59.541942Z"
+  }, {
+    "title" : "Ministry of Justice paid $500k to suspended worker - B2B News",
+    "source" : "B2B News",
+    "url" : "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdjBWSnNzVWxnYjZhT1dRMXVqOHVYUVFhVXhZQnhUZFNtSDFCWTNxMUoxdWxMV2hhcnNrN0RoYU9hYm9wUDEyT2J1anJ6UXpFMXF1Nmc3Wnh3NHRfT2FYd0FNQkpZZ3lPRkxqajAwUHVKbWhPRlVNcVFsc3o0QlJLaDlhRQ?oc=5",
+    "publishedAt" : "2026-08-29T21:40:09Z",
+    "category" : "policy_and_law_reform",
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "taggedAt" : "2026-09-01T08:22:14.954680Z"
+  }, {
+    "title" : "Dad's 'story time' livestreams about ex crossed line into family violence, judge rules - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWHBkNHR1NWVsbHlXYUxvVXdNcFpBWHBLVGhUazZYY0ZXdWhkcXRGYVE4Qy1GYk9LQml0emtlMkN1aHNjQ1NVSDVWdGZhZmplUkhhZVlPVjVwS1hLUGtUdXpQYlE0MHF6dldiZm91cW9mM1hyd25rckRSNmlWaUx2TXNxak13NDAwNWpfSXR4RlZESHdQdVNUYWtmQ2VWZ0lTbkI0enJJUTZaRm9HN1hGS1EwUzgySDIydjFRRndyR055RVZma2NB?oc=5",
+    "publishedAt" : "2026-08-31T13:02:14Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "sentiment" : "positive",
+    "stance" : "supportive_of_court_system",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "taggedAt" : "2026-08-31T13:37:03.733645Z"
+  } ],
+  "summary" : {
+    "bySource" : {
+      "RNZ" : 1,
+      "lawnews.nz" : 1,
+      "B2B News" : 1,
+      "NZ Herald" : 1
+    },
+    "byCategory" : {
+      "domestic_violence_and_protection_orders" : 2,
+      "court_process_and_delays" : 1,
+      "policy_and_law_reform" : 1
+    },
+    "bySentiment" : {
+      "positive" : 2,
+      "mixed" : 1,
+      "negative" : 1
+    },
+    "byStance" : {
+      "neutral_or_descriptive" : 1,
+      "critical_of_court_system" : 2,
+      "supportive_of_court_system" : 1
+    },
+    "byPerpetratorGender" : {
+      "male" : 2
+    },
+    "byVictimGender" : {
+      "female" : 2
+    }
+  }
+}

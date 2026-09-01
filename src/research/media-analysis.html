@@ -1,0 +1,246 @@
+---
+layout: base.html
+title: Media Coverage of the Family Court
+description: An early-stage sentiment and category analysis of New Zealand news coverage of the family court system
+---
+
+<section class="content-section">
+    <h1>Media Coverage of the Family Court</h1>
+    <p class="lead">How New Zealand news outlets report on the family justice system — categorised and assessed for sentiment, article by article.</p>
+
+    <p>The family court system rarely speaks for itself in public; most New Zealanders encounter it through what gets reported. This page tracks that reporting directly: every article below has been read and classified by a human reviewer against a fixed set of categories, so patterns in coverage — what gets covered, how it's framed, and towards whom — become visible over time rather than anecdotal.</p>
+
+    <p>This is the first output of the research approach described in our <a href="{{ '/volunteer-media-curator/' | url }}">Media Curator</a> role: systematically collecting and cataloguing family court coverage rather than relying on impression or selective examples.</p>
+</section>
+
+{% if mediaCoverage.totalRelevant < 20 %}
+<section class="content-section">
+    <div class="data-caveat">
+        ⚠ <strong>Early-stage sample:</strong> only {{ mediaCoverage.totalRelevant }} article{% if mediaCoverage.totalRelevant != 1 %}s{% endif %} {% if mediaCoverage.totalRelevant != 1 %}have{% else %}has{% endif %} been tagged as relevant so far. The breakdowns below are illustrative of the method, not yet a statistically meaningful picture of media coverage. This page will be updated as cataloguing continues.
+    </div>
+</section>
+{% endif %}
+
+<section class="content-section">
+    <h2>At a Glance</h2>
+    <div class="stat-tiles">
+        <div class="stat-tile">
+            <div class="stat-value">{{ mediaCoverage.totalTagged }}</div>
+            <div class="stat-label">Articles reviewed</div>
+        </div>
+        <div class="stat-tile">
+            <div class="stat-value">{{ mediaCoverage.totalRelevant }}</div>
+            <div class="stat-label">Confirmed relevant to the family court</div>
+        </div>
+        <div class="stat-tile">
+            <div class="stat-value">{{ mediaCoverage.summary.byCategory | length }}</div>
+            <div class="stat-label">Distinct coverage categories represented</div>
+        </div>
+    </div>
+    <p style="font-size: 0.85rem; color: var(--text-light);">
+        Last updated {{ mediaCoverage.generatedAt | date("d LLLL yyyy") }} ·
+        Reviewed-but-not-relevant articles (e.g. unrelated stories that merely mention "family" or "court") are excluded from every figure on this page.
+    </p>
+</section>
+
+<section class="content-section bg-light">
+    <h2>Coverage by Category</h2>
+    <p>What aspect of the family court system each article is actually about — custody and parenting disputes, domestic violence and protection orders, policy reform, and so on.</p>
+
+    {% set categoryColors = {
+        "custody_and_parenting_orders": "var(--chart-series-1)",
+        "domestic_violence_and_protection_orders": "var(--chart-series-2)",
+        "care_and_protection_of_children": "var(--chart-series-3)",
+        "court_process_and_delays": "var(--chart-series-4)",
+        "policy_and_law_reform": "var(--chart-series-5)",
+        "judicial_decision_or_ruling": "var(--chart-series-6)",
+        "opinion_or_editorial": "var(--chart-series-1)",
+        "case_study_or_personal_account": "var(--chart-series-2)",
+        "statistics_or_research_report": "var(--chart-series-3)",
+        "other": "var(--chart-series-4)"
+    } %}
+    {% set categoryLabels = {
+        "custody_and_parenting_orders": "Custody & parenting orders",
+        "domestic_violence_and_protection_orders": "Domestic violence & protection orders",
+        "care_and_protection_of_children": "Care & protection of children",
+        "court_process_and_delays": "Court process & delays",
+        "policy_and_law_reform": "Policy & law reform",
+        "judicial_decision_or_ruling": "Judicial decision or ruling",
+        "opinion_or_editorial": "Opinion or editorial",
+        "case_study_or_personal_account": "Case study or personal account",
+        "statistics_or_research_report": "Statistics or research report",
+        "other": "Other"
+    } %}
+
+    <div class="bar-chart">
+        {% for key, count in mediaCoverage.summary.byCategory %}
+        <div class="bar-row">
+            <span class="bar-label">{{ categoryLabels[key] or key }}</span>
+            <span class="bar-track">
+                <span class="bar-fill" style="width: {{ (count / mediaCoverage.totalRelevant * 100) }}%; background: {{ categoryColors[key] or 'var(--chart-series-1)' }};"></span>
+            </span>
+            <span class="bar-count">{{ count }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="content-section">
+    <h2>Coverage by Source</h2>
+    <p>Which outlets are covering the family court system, and how often. Source names are normalised so the same outlet (e.g. Radio New Zealand, reported variously as "RNZ" or "Radio New Zealand" depending on where an article was found) always aggregates under one name.</p>
+
+    {% set sourceColorList = ["var(--chart-series-1)", "var(--chart-series-2)", "var(--chart-series-3)", "var(--chart-series-4)", "var(--chart-series-5)", "var(--chart-series-6)"] %}
+    <div class="bar-chart">
+        {% for key, count in mediaCoverage.summary.bySource %}
+        <div class="bar-row">
+            <span class="bar-label">{{ key }}</span>
+            <span class="bar-track">
+                <span class="bar-fill" style="width: {{ (count / mediaCoverage.totalRelevant * 100) }}%; background: {{ sourceColorList[loop.index0 % 6] }};"></span>
+            </span>
+            <span class="bar-count">{{ count }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="content-section">
+    <h2>Sentiment &amp; Stance</h2>
+    <p>Each article is assessed on two axes: the overall <strong>sentiment</strong> of the coverage (positive, negative, neutral, or mixed in tone), and its <strong>stance</strong> toward the court system specifically — whether it reads as supportive, critical, descriptive, or critical of a party rather than the system itself.</p>
+
+    <h3>Sentiment</h3>
+    <div class="sentiment-legend">
+        <span><span class="legend-swatch" style="background: var(--chart-sentiment-negative);"></span>Negative</span>
+        <span><span class="legend-swatch" style="background: var(--chart-sentiment-neutral);"></span>Neutral / Mixed</span>
+        <span><span class="legend-swatch" style="background: var(--chart-sentiment-positive);"></span>Positive</span>
+    </div>
+    {% set sentimentColors = {
+        "negative": "var(--chart-sentiment-negative)",
+        "neutral": "var(--chart-sentiment-neutral)",
+        "mixed": "var(--chart-sentiment-neutral)",
+        "positive": "var(--chart-sentiment-positive)"
+    } %}
+    {% set sentimentLabels = {
+        "negative": "Negative",
+        "neutral": "Neutral",
+        "mixed": "Mixed",
+        "positive": "Positive"
+    } %}
+    <div class="bar-chart">
+        {% for key, count in mediaCoverage.summary.bySentiment %}
+        <div class="bar-row">
+            <span class="bar-label">{{ sentimentLabels[key] or key }}</span>
+            <span class="bar-track">
+                <span class="bar-fill" style="width: {{ (count / mediaCoverage.totalRelevant * 100) }}%; background: {{ sentimentColors[key] or 'var(--chart-sentiment-neutral)' }};"></span>
+            </span>
+            <span class="bar-count">{{ count }}</span>
+        </div>
+        {% endfor %}
+    </div>
+
+    <h3>Stance Toward the Court System</h3>
+    {% set stanceLabels = {
+        "supportive_of_court_system": "Supportive of court system",
+        "critical_of_court_system": "Critical of court system",
+        "critical_of_specific_parties": "Critical of specific parties (not the system)",
+        "neutral_or_descriptive": "Neutral / descriptive",
+        "unclear": "Unclear"
+    } %}
+    <div class="bar-chart">
+        {% for key, count in mediaCoverage.summary.byStance %}
+        <div class="bar-row">
+            <span class="bar-label">{{ stanceLabels[key] or key }}</span>
+            <span class="bar-track">
+                <span class="bar-fill" style="width: {{ (count / mediaCoverage.totalRelevant * 100) }}%; background: var(--chart-series-6);"></span>
+            </span>
+            <span class="bar-count">{{ count }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% if mediaCoverage.summary.byPerpetratorGender | length or mediaCoverage.summary.byVictimGender | length %}
+<section class="content-section bg-light">
+    <h2>Domestic Violence &amp; Protection Order Coverage: Gender of Parties</h2>
+    <p>For articles specifically about domestic violence or protection orders, we separately record the alleged perpetrator's and alleged victim's gender as reported in the article. This is one of the more contested questions in family court media coverage — whether reporting reflects a consistent pattern by gender, or reflects individual cases without a discernible pattern. With so few articles tagged so far, no pattern can be claimed either way; this table exists so the question can be tracked honestly as the sample grows.</p>
+
+    {% set genderLabels = { "male": "Male", "female": "Female", "both": "Both / multiple", "unspecified": "Not stated", "not_applicable": "Not applicable" } %}
+
+    <div class="cards">
+        <div class="card">
+            <h3>Alleged Perpetrator</h3>
+            <table class="data-table">
+                <tbody>
+                    {% for key, count in mediaCoverage.summary.byPerpetratorGender %}
+                    <tr>
+                        <td>{{ genderLabels[key] or key }}</td>
+                        <td>{{ count }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="card">
+            <h3>Alleged Victim</h3>
+            <table class="data-table">
+                <tbody>
+                    {% for key, count in mediaCoverage.summary.byVictimGender %}
+                    <tr>
+                        <td>{{ genderLabels[key] or key }}</td>
+                        <td>{{ count }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<section class="content-section">
+    <h2>All Tagged Articles</h2>
+    <p>Full transparency: every article included in the figures above, linked to its original source.</p>
+
+    <div class="data-table-wrapper">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Published</th>
+                    <th>Article</th>
+                    <th>Category</th>
+                    <th>Sentiment</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for article in mediaCoverage.articles %}
+                <tr>
+                    <td>{% if article.publishedAt %}{{ article.publishedAt | date("d MMM yyyy") }}{% endif %}</td>
+                    <td><a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a><br><small style="color: var(--text-light);">{{ article.source }}</small></td>
+                    <td>{{ categoryLabels[article.category] or article.category }}</td>
+                    <td>
+                        <span class="tag-pill" style="background: {{ sentimentColors[article.sentiment] or 'var(--text-light)' }};">{{ sentimentLabels[article.sentiment] or article.sentiment }}</span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="content-section bg-light">
+    <h2>Methodology</h2>
+    <div class="methodology-note">
+        <p><strong>Discovery:</strong> Articles are surfaced from New Zealand news RSS feeds and targeted news searches for family-court-related terms, run on a recurring schedule.</p>
+        <p><strong>Relevance screening:</strong> A human reviewer first confirms whether each article is genuinely about the New Zealand family court system before any further tagging occurs — articles that merely contain a matching keyword but aren't actually relevant (e.g. unrelated overseas stories) are excluded from this page entirely rather than folded into a miscellaneous category.</p>
+        <p><strong>Categorisation:</strong> Relevant articles are classified by category, overall sentiment, and stance toward the court system specifically, plus (for domestic violence and protection order coverage) the alleged perpetrator's and victim's gender as reported.</p>
+        <p><strong>Independence:</strong> Tagging is performed by a human reviewer against a fixed set of categories, not selected to support a predetermined conclusion. As the volunteer Media Curator programme grows, we intend to publish inter-rater agreement figures once more than one reviewer is tagging articles.</p>
+    </div>
+</section>
+
+<section class="content-section text-center">
+    <h2>Help Build This</h2>
+    <p>This dataset grows through systematic, ongoing review. If you're interested in contributing as a volunteer Media Curator, we'd like to hear from you.</p>
+    <div class="cta-buttons mt-4">
+        <a href="{{ '/volunteer-media-curator/' | url }}" class="btn btn-primary">View the Media Curator Role</a>
+        <a href="{{ '/research/' | url }}" class="btn">Back to Research</a>
+    </div>
+</section>
