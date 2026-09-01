@@ -73,8 +73,9 @@ justice system, and if so, in what areas?
 
 **3. Digitisation (Te Au Reka)**
 The Ministry of Justice's Te Au Reka programme aims to modernise the Family
-Court's paper-based case administration. Will your party commit to funding
-this programme through to completion, and on what timeline?
+Court's paper-based case administration. What is your party's position on
+this programme, and would you continue, adjust, or discontinue it if
+elected?
 
 **4. Access to legal representation**
 The proportion of Family Court cases involving a self-represented party has
@@ -88,10 +89,10 @@ Act 2025 introduces new tools against "litigant abuse" — using court
 proceedings themselves to harass a former partner. Separately, the average
 time to serve a temporary protection order has risen from 7 days in 2021 to
 10 days in 2024 (easing slightly to 9 days in 2025), with nearly half of
-temporary orders in 2025 taking 4 or more days to reach the respondent. Does
-your party consider the 2025 Act sufficient, would you propose further
-protections, and what would your party do to reduce service delays for
-urgent protection orders?
+temporary orders in 2025 taking 4 or more days to reach the respondent. What
+is your party's assessment of the 2025 Act, and what further steps — if any
+— would your party take to reduce service delays for urgent protection
+orders?
 
 **6. Outcomes for children**
 What data, if any, does your party believe should be collected and published
