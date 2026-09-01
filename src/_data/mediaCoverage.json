@@ -1,8 +1,41 @@
 {
-  "generatedAt" : "2026-09-01T17:25:27.951808Z",
-  "totalTagged" : 11,
-  "totalRelevant" : 5,
+  "generatedAt" : "2026-09-01T18:51:48.519482Z",
+  "totalTagged" : 16,
+  "totalRelevant" : 8,
   "articles" : [ {
+    "title" : "Legal aid: What is it and who’s entitled to it - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/legal-aid-what-is-it-and-whos-entitled-to-it/J3JICNS4NRAN7LILVBQ7QYM6OY/",
+    "publishedAt" : "2026-09-01T18:41:50.873405Z",
+    "category" : "policy_and_law_reform",
+    "sentiment" : "mixed",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "taggedAt" : "2026-09-01T18:50:56.286554Z"
+  }, {
+    "title" : "'One day is too long': Victims wait days for protection orders to be served",
+    "source" : "Newstalk ZB",
+    "url" : "https://www.newstalkzb.co.nz/news/national/one-day-is-too-long-victims-wait-days-for-protection-orders-to-be-served/",
+    "publishedAt" : "2026-09-01T18:19:52.260234Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "sentiment" : "negative",
+    "stance" : "critical_of_specific_parties",
+    "perpetratorGender" : "unspecified",
+    "victimGender" : "unspecified",
+    "taggedAt" : "2026-09-01T18:49:56.374396Z"
+  }, {
+    "title" : "Continued rise in legal self-representation adding to justice delay concerns - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/continued-rise-in-legal-self-representation-adding-to-justice-delay-concerns/L3DBYU5PONDD3JZSXK4257VKQI/",
+    "publishedAt" : "2026-09-01T18:19:04.670177Z",
+    "category" : "court_process_and_delays",
+    "sentiment" : "mixed",
+    "stance" : "critical_of_specific_parties",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "taggedAt" : "2026-09-01T18:44:22.348434Z"
+  }, {
     "title" : "Inside the Family Court: Do custody rulings really put kids first? | RNZ",
     "source" : "RNZ",
     "url" : "https://www.rnz.co.nz/news/national/584378/inside-the-family-court-do-custody-rulings-really-put-kids-first",
@@ -60,31 +93,35 @@
   } ],
   "summary" : {
     "bySource" : {
+      "NZ Herald" : 3,
+      "Newstalk ZB" : 1,
       "RNZ" : 2,
       "lawnews.nz" : 1,
-      "B2B News" : 1,
-      "NZ Herald" : 1
+      "B2B News" : 1
     },
     "byCategory" : {
-      "custody_and_parenting_orders" : 1,
-      "domestic_violence_and_protection_orders" : 2,
-      "court_process_and_delays" : 1,
-      "policy_and_law_reform" : 1
+      "policy_and_law_reform" : 2,
+      "domestic_violence_and_protection_orders" : 3,
+      "court_process_and_delays" : 2,
+      "custody_and_parenting_orders" : 1
     },
     "bySentiment" : {
-      "mixed" : 2,
-      "positive" : 2,
-      "negative" : 1
+      "mixed" : 4,
+      "negative" : 2,
+      "positive" : 2
     },
     "byStance" : {
-      "neutral_or_descriptive" : 2,
+      "neutral_or_descriptive" : 3,
+      "critical_of_specific_parties" : 2,
       "critical_of_court_system" : 2,
       "supportive_of_court_system" : 1
     },
     "byPerpetratorGender" : {
+      "unspecified" : 1,
       "male" : 2
     },
     "byVictimGender" : {
+      "unspecified" : 1,
       "female" : 2
     }
   }
