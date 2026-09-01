@@ -11,6 +11,10 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromISO(isoString, { zone: "utc" }).toFormat(format);
   });
 
+  // The current year at build time, e.g. {% currentYear %} — for a copyright
+  // notice that never needs manual updating.
+  eleventyConfig.addShortcode("currentYear", () => String(new Date().getFullYear()));
+
   // Set custom directories
   return {
     dir: {

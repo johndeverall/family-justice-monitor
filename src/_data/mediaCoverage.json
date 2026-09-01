@@ -1,8 +1,19 @@
 {
-  "generatedAt" : "2026-09-01T08:39:03.532203Z",
-  "totalTagged" : 9,
-  "totalRelevant" : 4,
+  "generatedAt" : "2026-09-01T09:28:01.862897Z",
+  "totalTagged" : 10,
+  "totalRelevant" : 5,
   "articles" : [ {
+    "title" : "Inside the Family Court: Do custody rulings really put kids first? | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/national/584378/inside-the-family-court-do-custody-rulings-really-put-kids-first",
+    "publishedAt" : "2026-09-01T09:14:40.997993Z",
+    "category" : "custody_and_parenting_orders",
+    "sentiment" : "mixed",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "taggedAt" : "2026-09-01T09:27:10.640646Z"
+  }, {
     "title" : "Judge finds dad’s livestreams about ex were abusive, harmful - RNZ",
     "source" : "RNZ",
     "url" : "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTU0tWnhVRDBwQ0plRE9xM0pRZDFZb2lDSnNCNzJQeEdQTDZuVGNBVHgtVWEtY3lqLWZLWHlMSFRpR21wTEZlV0xTS0ZDbTRMLUhqbDBRUU9jYTdPWjRuaXYtYmkwM3VEcnkwOFBmQWdnYzhvNTJBUzNZeWVDdkhteVNmZ0UzNDJTWDRMZE9DRGV6NHk4U1k0OHlYbFllLVdLakVVWWV0MDRxRzdmV1BrenlR?oc=5",
@@ -49,23 +60,24 @@
   } ],
   "summary" : {
     "bySource" : {
-      "RNZ" : 1,
+      "RNZ" : 2,
       "lawnews.nz" : 1,
       "B2B News" : 1,
       "NZ Herald" : 1
     },
     "byCategory" : {
+      "custody_and_parenting_orders" : 1,
       "domestic_violence_and_protection_orders" : 2,
       "court_process_and_delays" : 1,
       "policy_and_law_reform" : 1
     },
     "bySentiment" : {
+      "mixed" : 2,
       "positive" : 2,
-      "mixed" : 1,
       "negative" : 1
     },
     "byStance" : {
-      "neutral_or_descriptive" : 1,
+      "neutral_or_descriptive" : 2,
       "critical_of_court_system" : 2,
       "supportive_of_court_system" : 1
     },
