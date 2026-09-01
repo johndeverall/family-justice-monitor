@@ -61,8 +61,9 @@ answer) before sending.
 **1. Court delays and capacity**
 Family Court applications rose 4.8% over the past decade, and self-represented
 litigants are increasing, which judges say slows proceedings further. What is
-your party's policy to reduce Family Court wait times, and would you fund
-additional judicial or navigator capacity to address the backlog?
+your party's policy to reduce Family Court wait times, and what specific
+steps — if any — would your party take to address current capacity
+constraints?
 
 **2. Community magistrates**
 The Law Association told Parliament that expanding community magistrates'
