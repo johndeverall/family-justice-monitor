@@ -1,8 +1,21 @@
 {
-  "generatedAt" : "2026-09-02T07:15:23.910483Z",
-  "totalTagged" : 77,
+  "generatedAt" : "2026-09-02T09:36:40.817755Z",
+  "totalTagged" : 76,
   "totalRelevant" : 62,
   "articles" : [ {
+    "title" : "Justice Ministry to be reviewed, as minister's confidence in agency 'seriously shaken' | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/politics/894680/justice-ministry-to-be-reviewed-as-minister-s-confidence-in-agency-seriously-shaken",
+    "publishedAt" : "2026-08-05T00:00:00Z",
+    "category" : "misconduct_by_justice_system_professionals",
+    "secondaryCategories" : [ ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T07:49:09.818561Z"
+  }, {
     "title" : "Inside the Family Court: Do custody rulings really put kids first? | RNZ",
     "source" : "RNZ",
     "url" : "https://www.rnz.co.nz/news/national/584378/inside-the-family-court-do-custody-rulings-really-put-kids-first",
@@ -45,7 +58,7 @@
     "title" : "Family Court orders no contact after father’s ‘uninhibited, dysregulated’ and abusive behaviour | RNZ",
     "source" : "RNZ",
     "url" : "https://www.rnz.co.nz/news/crime-and-justice/945843/family-court-orders-no-contact-after-father-s-uninhibited-dysregulated-and-abusive-behaviour",
-    "publishedAt" : null,
+    "publishedAt" : "2026-08-09T00:00:00Z",
     "category" : "domestic_violence_and_protection_orders",
     "secondaryCategories" : [ "custody_and_parenting_orders", "care_and_protection_of_children" ],
     "sentiment" : "neutral",
@@ -58,7 +71,7 @@
     "title" : "Man wins Family Court order to adopt own surrogate son, despite concerns from judge | RNZ",
     "source" : "RNZ",
     "url" : "https://www.rnz.co.nz/news/crime-and-justice/586198/man-wins-family-court-order-to-adopt-own-surrogate-son-despite-concerns-from-judge",
-    "publishedAt" : null,
+    "publishedAt" : "2026-02-07T00:00:00Z",
     "category" : "care_and_protection_of_children",
     "secondaryCategories" : [ "custody_and_parenting_orders", "court_process_and_delays", "judicial_decision_or_ruling" ],
     "sentiment" : "neutral",
@@ -120,19 +133,6 @@
     "victimRelationship" : "intimate_partner_or_ex_partner",
     "taggedAt" : "2026-09-02T06:43:15.383966Z"
   }, {
-    "title" : "Justice Ministry to be reviewed, as minister's confidence in agency 'seriously shaken' | RNZ",
-    "source" : "RNZ",
-    "url" : "https://www.rnz.co.nz/news/politics/894680/justice-ministry-to-be-reviewed-as-minister-s-confidence-in-agency-seriously-shaken",
-    "publishedAt" : null,
-    "category" : "misconduct_by_justice_system_professionals",
-    "secondaryCategories" : [ ],
-    "sentiment" : "negative",
-    "stance" : "critical_of_court_system",
-    "perpetratorGender" : null,
-    "victimGender" : null,
-    "victimRelationship" : null,
-    "taggedAt" : "2026-09-02T06:42:06.215489Z"
-  }, {
     "title" : "Trauma and heavy caseloads push a quarter of NZ lawyers toward the exit - Newsroom",
     "source" : "Newsroom",
     "url" : "https://newsroom.co.nz/2026/08/06/trauma-and-heavy-caseloads-push-a-quarter-of-nz-lawyers-toward-the-exit/",
@@ -175,7 +175,7 @@
     "title" : "'More should have been done': Oranga Tamariki says changes made following death of baby killed by his father | RNZ",
     "source" : "RNZ",
     "url" : "https://www.rnz.co.nz/news/crime-and-justice/596689/more-should-have-been-done-oranga-tamariki-says-changes-made-following-death-of-baby-killed-by-his-father",
-    "publishedAt" : null,
+    "publishedAt" : "2026-05-29T00:00:00Z",
     "category" : "domestic_violence_and_protection_orders",
     "secondaryCategories" : [ "care_and_protection_of_children", "misconduct_by_justice_system_professionals" ],
     "sentiment" : "negative",
@@ -201,7 +201,7 @@
     "title" : "Girl gives Family Court judge PowerPoint presentation on why she doesn’t want to see her father | RNZ",
     "source" : "RNZ",
     "url" : "https://www.rnz.co.nz/news/crime-and-justice/595465/girl-gives-family-court-judge-powerpoint-presentation-on-why-she-doesn-t-want-to-see-her-father",
-    "publishedAt" : null,
+    "publishedAt" : "2026-05-17T00:00:00Z",
     "category" : "care_and_protection_of_children",
     "secondaryCategories" : [ "custody_and_parenting_orders", "domestic_violence_and_protection_orders" ],
     "sentiment" : "neutral",
@@ -357,7 +357,7 @@
     "title" : "Judge La-Verne King appointed as Principal Family Court Judge, first of Māori descent to hold the role – Te Ao Māori News",
     "source" : "www.teaonews.co.nz",
     "url" : "https://www.teaonews.co.nz/2026/07/04/judge-la-verne-king-appointed-as-principal-family-court-judge-first-of-maori-descent-to-hold-the-role/",
-    "publishedAt" : null,
+    "publishedAt" : "2026-07-04T00:00:00Z",
     "category" : "court_administration_and_institutional_news",
     "secondaryCategories" : [ ],
     "sentiment" : "positive",
@@ -383,7 +383,7 @@
     "title" : "The Post",
     "source" : "The Post",
     "url" : "https://www.thepost.co.nz/nz-news/360985689/no-child-should-be-held-police-cell-childrens-commissioner-concerned-custody-stats",
-    "publishedAt" : null,
+    "publishedAt" : "2026-04-19T00:00:00Z",
     "category" : "misconduct_by_justice_system_professionals",
     "secondaryCategories" : [ "care_and_protection_of_children" ],
     "sentiment" : "negative",
@@ -824,10 +824,10 @@
       "B2B News" : 1
     },
     "byCategory" : {
+      "misconduct_by_justice_system_professionals" : 10,
       "custody_and_parenting_orders" : 6,
       "care_and_protection_of_children" : 7,
       "domestic_violence_and_protection_orders" : 16,
-      "misconduct_by_justice_system_professionals" : 10,
       "statistics_or_research_report" : 1,
       "court_administration_and_institutional_news" : 4,
       "judicial_decision_or_ruling" : 1,
@@ -848,14 +848,14 @@
       "case_study_or_personal_account" : 1
     },
     "bySentiment" : {
+      "negative" : 25,
       "mixed" : 5,
       "neutral" : 23,
-      "negative" : 25,
       "positive" : 9
     },
     "byStance" : {
-      "neutral_or_descriptive" : 27,
       "critical_of_court_system" : 18,
+      "neutral_or_descriptive" : 27,
       "critical_of_specific_parties" : 8,
       "supportive_of_court_system" : 9
     },

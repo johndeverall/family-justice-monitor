@@ -529,6 +529,41 @@ footer {
   vertical-align: middle;
 }
 
+.table-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 0;
+  font-size: 0.9rem;
+}
+
+.table-filters label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.table-filters select {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  background: var(--white);
+  color: var(--text-color);
+}
+
+.table-filter-count {
+  color: var(--text-light);
+  font-size: 0.85rem;
+}
+
+.table-empty-state {
+  color: var(--text-light);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
 .data-table-wrapper {
   overflow-x: auto;
   margin: 1.5rem 0;
@@ -559,6 +594,32 @@ footer {
 
 .data-table tr:last-child td {
   border-bottom: none;
+}
+
+.data-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.data-table th.sortable:hover {
+  color: var(--text-color);
+}
+
+.data-table th.sortable::after {
+  content: "\2195";
+  margin-left: 0.35em;
+  opacity: 0.35;
+  font-size: 0.9em;
+}
+
+.data-table th.sortable.sort-asc::after {
+  content: "\2191";
+  opacity: 1;
+}
+
+.data-table th.sortable.sort-desc::after {
+  content: "\2193";
+  opacity: 1;
 }
 
 .tag-pill {
