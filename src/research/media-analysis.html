@@ -275,7 +275,7 @@ description: An early-stage sentiment and category analysis of New Zealand news 
                     data-sort-category="{{ (categoryLabels[article.category] or article.category) | lower }}"
                     data-sort-sentiment="{{ (sentimentLabels[article.sentiment] or article.sentiment) | lower }}">
                     <td>{% if article.publishedAt %}{{ article.publishedAt | date("d MMM yyyy") }}{% else %}<span style="color: var(--text-light);">unknown</span>{% endif %}</td>
-                    <td><a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a><br><small style="color: var(--text-light);">{{ article.source }}</small></td>
+                    <td><a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title }}</a><br><small style="color: var(--text-light);">{{ article.source }}{% if article.journalist %} · {{ article.journalist }}{% endif %}</small></td>
                     <td>{{ categoryLabels[article.category] or article.category }}{% if article.secondaryCategories | length %}<br><small style="color: var(--text-light);">Also: {% for secondary in article.secondaryCategories %}{{ categoryLabels[secondary] or secondary }}{% if not loop.last %}, {% endif %}{% endfor %}</small>{% endif %}</td>
                     <td>
                         <span class="tag-pill" style="background: {{ sentimentColors[article.sentiment] or 'var(--text-light)' }};">{{ sentimentLabels[article.sentiment] or article.sentiment }}</span>
