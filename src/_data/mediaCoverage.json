@@ -1,8 +1,78 @@
 {
-  "generatedAt" : "2026-09-02T11:34:50.778024Z",
+  "generatedAt" : "2026-09-02T17:35:48.163740Z",
   "totalTagged" : 75,
   "totalRelevant" : 61,
   "articles" : [ {
+    "title" : "Media application in relation to Tom Phillips suppression granted, sent back to Family Court | Stuff",
+    "journalist" : "Jake Kenny",
+    "source" : "Stuff",
+    "url" : "https://www.stuff.co.nz/nz-news/360931885/media-application-relation-tom-phillips-suppression-granted-sent-back-family-court",
+    "publishedAt" : "2026-01-30T01:57:45Z",
+    "category" : "custody_and_parenting_orders",
+    "secondaryCategories" : [ "domestic_violence_and_protection_orders", "care_and_protection_of_children", "court_process_and_delays", "judicial_decision_or_ruling" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "male",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T17:30:39.390304Z"
+  }, {
+    "title" : "Tom Phillips Family Court records 'matter of public interest', legal expert says",
+    "journalist" : "Kelly Dennett",
+    "source" : "The Post",
+    "url" : "https://www.thepost.co.nz/nz-news/360822034/tom-phillips-family-court-records-matter-public-interest-legal-expert-says",
+    "publishedAt" : "2025-09-12T00:00:00Z",
+    "category" : "custody_and_parenting_orders",
+    "secondaryCategories" : [ "domestic_violence_and_protection_orders", "care_and_protection_of_children", "judicial_decision_or_ruling" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : "male",
+    "victimGender" : "male",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T17:30:01.861706Z"
+  }, {
+    "title" : "Dad banned from seeing daughters after relentless false abuse claims | Stuff",
+    "journalist" : null,
+    "source" : "Stuff",
+    "url" : "https://www.stuff.co.nz/nz-news/361018032/dad-banned-seeing-daughters-after-relentless-false-abuse-claims",
+    "publishedAt" : "2026-08-09T21:40:15Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "care_and_protection_of_children" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T16:51:32.629491Z"
+  }, {
+    "title" : "Girl gives Family Court judge PowerPoint presentation on why she doesn’t want to see her father | RNZ",
+    "journalist" : "Ric Stevens",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/crime-and-justice/595465/girl-gives-family-court-judge-powerpoint-presentation-on-why-she-doesn-t-want-to-see-her-father",
+    "publishedAt" : "2026-05-17T00:00:00Z",
+    "category" : "care_and_protection_of_children",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "domestic_violence_and_protection_orders" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-02T13:12:20.812899Z"
+  }, {
+    "title" : "Girl gives Family Court judge PowerPoint presentation on why she doesn’t want to see her father - NZ Herald",
+    "journalist" : "Ric Stevens",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/girl-gives-family-court-judge-a-20-slide-powerpoint-presentation-on-why-she-doesnt-want-to-see-her-father/W7FCLPRVHREG7IXPHRFXWALT3E/",
+    "publishedAt" : "2026-05-16T21:23:53.177Z",
+    "category" : "care_and_protection_of_children",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "domestic_violence_and_protection_orders" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-02T12:42:04.977746Z"
+  }, {
     "title" : "Justice Ministry to be reviewed, as minister's confidence in agency 'seriously shaken' | RNZ",
     "journalist" : "Lillian Hanly",
     "source" : "RNZ",
@@ -44,20 +114,6 @@
     "victimGender" : "female",
     "victimRelationship" : "intimate_partner_or_ex_partner",
     "taggedAt" : "2026-09-02T07:15:18.188924Z"
-  }, {
-    "title" : "Girl gives Family Court judge PowerPoint presentation on why she doesn’t want to see her father - NZ Herald",
-    "journalist" : "Ric Stevens",
-    "source" : "NZ Herald",
-    "url" : "https://www.nzherald.co.nz/nz/girl-gives-family-court-judge-a-20-slide-powerpoint-presentation-on-why-she-doesnt-want-to-see-her-father/W7FCLPRVHREG7IXPHRFXWALT3E/",
-    "publishedAt" : "2026-05-16T21:23:53.177Z",
-    "category" : "care_and_protection_of_children",
-    "secondaryCategories" : [ "custody_and_parenting_orders", "domestic_violence_and_protection_orders" ],
-    "sentiment" : "neutral",
-    "stance" : "neutral_or_descriptive",
-    "perpetratorGender" : "male",
-    "victimGender" : "female",
-    "victimRelationship" : "child",
-    "taggedAt" : "2026-09-02T07:14:47.670575Z"
   }, {
     "title" : "Family Court orders no contact after father’s ‘uninhibited, dysregulated’ and abusive behaviour | RNZ",
     "journalist" : "Shannon Pitman",
@@ -148,8 +204,8 @@
     "source" : "Newsroom",
     "url" : "https://newsroom.co.nz/2026/08/06/trauma-and-heavy-caseloads-push-a-quarter-of-nz-lawyers-toward-the-exit/",
     "publishedAt" : "2026-08-05T17:00:00Z",
-    "category" : "statistics_or_research_report",
-    "secondaryCategories" : [ "policy_and_law_reform" ],
+    "category" : "policy_and_law_reform",
+    "secondaryCategories" : [ ],
     "sentiment" : "negative",
     "stance" : "critical_of_court_system",
     "perpetratorGender" : null,
@@ -170,20 +226,6 @@
     "victimGender" : null,
     "victimRelationship" : null,
     "taggedAt" : "2026-09-02T06:32:19.555732Z"
-  }, {
-    "title" : "Dad banned from seeing daughters after relentless false abuse claims | Stuff",
-    "journalist" : null,
-    "source" : "Stuff",
-    "url" : "https://www.stuff.co.nz/nz-news/361018032/dad-banned-seeing-daughters-after-relentless-false-abuse-claims",
-    "publishedAt" : "2026-08-09T21:40:15Z",
-    "category" : "domestic_violence_and_protection_orders",
-    "secondaryCategories" : [ "custody_and_parenting_orders", "care_and_protection_of_children" ],
-    "sentiment" : "neutral",
-    "stance" : "neutral_or_descriptive",
-    "perpetratorGender" : "male",
-    "victimGender" : "female",
-    "victimRelationship" : "intimate_partner_or_ex_partner",
-    "taggedAt" : "2026-09-02T06:30:15.492082Z"
   }, {
     "title" : "'More should have been done': Oranga Tamariki says changes made following death of baby killed by his father | RNZ",
     "journalist" : "Sam Sherwood",
@@ -212,20 +254,6 @@
     "victimGender" : "female",
     "victimRelationship" : "child",
     "taggedAt" : "2026-09-02T02:32:23.302525Z"
-  }, {
-    "title" : "Girl gives Family Court judge PowerPoint presentation on why she doesn’t want to see her father | RNZ",
-    "journalist" : "Ric Stevens",
-    "source" : "RNZ",
-    "url" : "https://www.rnz.co.nz/news/crime-and-justice/595465/girl-gives-family-court-judge-powerpoint-presentation-on-why-she-doesn-t-want-to-see-her-father",
-    "publishedAt" : "2026-05-17T00:00:00Z",
-    "category" : "care_and_protection_of_children",
-    "secondaryCategories" : [ "custody_and_parenting_orders", "domestic_violence_and_protection_orders" ],
-    "sentiment" : "neutral",
-    "stance" : "neutral_or_descriptive",
-    "perpetratorGender" : "male",
-    "victimGender" : "female",
-    "victimRelationship" : "child",
-    "taggedAt" : "2026-09-02T02:20:28.459168Z"
   }, {
     "title" : "Can my daughter get a protection order against her ex-boyfriend? -The Ex-Files by Jeremy Sutton - NZ Herald",
     "journalist" : "Jeremy Sutton",
@@ -577,20 +605,6 @@
     "victimRelationship" : null,
     "taggedAt" : "2026-09-01T23:09:04.664787Z"
   }, {
-    "title" : "Media application in relation to Tom Phillips suppression granted, sent back to Family Court | Stuff",
-    "journalist" : "Jake Kenny",
-    "source" : "Stuff",
-    "url" : "https://www.stuff.co.nz/nz-news/360931885/media-application-relation-tom-phillips-suppression-granted-sent-back-family-court",
-    "publishedAt" : "2026-01-30T01:57:45Z",
-    "category" : "custody_and_parenting_orders",
-    "secondaryCategories" : [ "domestic_violence_and_protection_orders", "care_and_protection_of_children", "court_process_and_delays", "judicial_decision_or_ruling" ],
-    "sentiment" : "neutral",
-    "stance" : "neutral_or_descriptive",
-    "perpetratorGender" : null,
-    "victimGender" : null,
-    "victimRelationship" : null,
-    "taggedAt" : "2026-09-01T23:00:51.032185Z"
-  }, {
     "title" : "Experts urge compromise as Family Court orders kick in for Christmas day - NZ Herald",
     "journalist" : "Shannon Pitman",
     "source" : "NZ Herald",
@@ -604,20 +618,6 @@
     "victimGender" : null,
     "victimRelationship" : null,
     "taggedAt" : "2026-09-01T22:59:09.058365Z"
-  }, {
-    "title" : "Tom Phillips Family Court records 'matter of public interest', legal expert says",
-    "journalist" : "Kelly Dennett",
-    "source" : "The Post",
-    "url" : "https://www.thepost.co.nz/nz-news/360822034/tom-phillips-family-court-records-matter-public-interest-legal-expert-says",
-    "publishedAt" : "2025-09-12T00:00:00Z",
-    "category" : "custody_and_parenting_orders",
-    "secondaryCategories" : [ "domestic_violence_and_protection_orders", "care_and_protection_of_children", "judicial_decision_or_ruling" ],
-    "sentiment" : "negative",
-    "stance" : "critical_of_court_system",
-    "perpetratorGender" : null,
-    "victimGender" : null,
-    "victimRelationship" : null,
-    "taggedAt" : "2026-09-01T22:50:38.045109Z"
   }, {
     "title" : "‘I would be dead without them’: New service aims to help people struggling to leave unsafe relationships due to legal costs - Stuff",
     "journalist" : "Emma Ricketts",
@@ -681,7 +681,7 @@
     "url" : "https://www.nzherald.co.nz/nz/family-court-clears-retired-surgeon-from-compulsory-mental-health-care/L535TP5FLBH6BEXTKUAOOXX4MU/",
     "publishedAt" : "2025-10-27T07:00:00Z",
     "category" : "domestic_violence_and_protection_orders",
-    "secondaryCategories" : [ "judicial_decision_or_ruling", "case_study_or_personal_account" ],
+    "secondaryCategories" : [ "judicial_decision_or_ruling" ],
     "sentiment" : "positive",
     "stance" : "neutral_or_descriptive",
     "perpetratorGender" : "male",
@@ -859,66 +859,64 @@
   } ],
   "summary" : {
     "bySource" : {
+      "Stuff" : 7,
+      "The Post" : 2,
       "RNZ" : 17,
       "NZ Herald" : 24,
       "Newsroom" : 1,
       "www.thelawyermag.com" : 6,
-      "Stuff" : 7,
       "www.teaonews.co.nz" : 1,
-      "The Post" : 2,
       "Newstalk ZB" : 1,
       "lawnews.nz" : 1,
       "b2bnews.co.nz" : 1
     },
     "byCategory" : {
-      "misconduct_by_justice_system_professionals" : 10,
       "custody_and_parenting_orders" : 6,
-      "care_and_protection_of_children" : 7,
       "domestic_violence_and_protection_orders" : 16,
-      "statistics_or_research_report" : 1,
+      "care_and_protection_of_children" : 7,
+      "misconduct_by_justice_system_professionals" : 10,
+      "policy_and_law_reform" : 3,
       "court_administration_and_institutional_news" : 4,
       "judicial_decision_or_ruling" : 1,
       "court_process_and_delays" : 9,
       "child_support" : 2,
-      "policy_and_law_reform" : 2,
       "relationship_property_and_asset_division" : 3
     },
     "bySecondaryCategory" : {
       "domestic_violence_and_protection_orders" : 10,
       "care_and_protection_of_children" : 19,
       "court_process_and_delays" : 9,
-      "policy_and_law_reform" : 4,
       "judicial_decision_or_ruling" : 13,
       "custody_and_parenting_orders" : 12,
+      "policy_and_law_reform" : 3,
       "neglect" : 2,
-      "misconduct_by_justice_system_professionals" : 3,
-      "case_study_or_personal_account" : 1
+      "misconduct_by_justice_system_professionals" : 3
     },
     "bySentiment" : {
+      "neutral" : 23,
       "negative" : 24,
       "mixed" : 5,
-      "neutral" : 23,
       "positive" : 9
     },
     "byStance" : {
-      "critical_of_court_system" : 18,
       "neutral_or_descriptive" : 27,
+      "critical_of_court_system" : 18,
       "critical_of_specific_parties" : 7,
       "supportive_of_court_system" : 9
     },
     "byPerpetratorGender" : {
-      "male" : 20,
+      "male" : 22,
       "both" : 2,
       "female" : 2,
       "unspecified" : 1
     },
     "byVictimGender" : {
+      "male" : 5,
       "female" : 21,
-      "male" : 3,
       "unspecified" : 1
     },
     "byVictimRelationship" : {
-      "intimate_partner_or_ex_partner" : 9,
+      "intimate_partner_or_ex_partner" : 11,
       "child" : 7,
       "unspecified" : 2
     }
