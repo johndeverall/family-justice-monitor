@@ -41,6 +41,11 @@ answer) before sending.
 > that your party did not respond by the deadline, alongside any response
 > received after publication if you provide one later.
 >
+> We publish responses as submitted, without editorial alteration. We do
+> reserve the right to append a separate note alongside a response where we
+> believe it contains a factual inaccuracy, with our reasoning and sourcing —
+> the original response itself will not be edited or removed.
+>
 > The questions are attached [or: below]. We estimate they would take
 > [X minutes/an hour] to answer, and we're happy to discuss them by phone if
 > useful before you respond.
