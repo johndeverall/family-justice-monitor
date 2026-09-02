@@ -51,20 +51,28 @@ description: An early-stage sentiment and category analysis of New Zealand news 
         "custody_and_parenting_orders": "var(--chart-series-1)",
         "domestic_violence_and_protection_orders": "var(--chart-series-2)",
         "care_and_protection_of_children": "var(--chart-series-3)",
-        "relationship_property_and_asset_division": "var(--chart-series-4)",
-        "court_process_and_delays": "var(--chart-series-5)",
-        "policy_and_law_reform": "var(--chart-series-6)",
-        "judicial_decision_or_ruling": "var(--chart-series-1)",
-        "opinion_or_editorial": "var(--chart-series-2)",
-        "case_study_or_personal_account": "var(--chart-series-3)",
-        "statistics_or_research_report": "var(--chart-series-4)",
-        "other": "var(--chart-series-5)"
+        "neglect": "var(--chart-series-4)",
+        "relationship_property_and_asset_division": "var(--chart-series-5)",
+        "child_support": "var(--chart-series-6)",
+        "misconduct_by_justice_system_professionals": "var(--chart-series-1)",
+        "court_administration_and_institutional_news": "var(--chart-series-2)",
+        "court_process_and_delays": "var(--chart-series-3)",
+        "policy_and_law_reform": "var(--chart-series-4)",
+        "judicial_decision_or_ruling": "var(--chart-series-5)",
+        "opinion_or_editorial": "var(--chart-series-6)",
+        "case_study_or_personal_account": "var(--chart-series-1)",
+        "statistics_or_research_report": "var(--chart-series-2)",
+        "other": "var(--chart-series-3)"
     } %}
     {% set categoryLabels = {
         "custody_and_parenting_orders": "Custody & parenting orders",
         "domestic_violence_and_protection_orders": "Domestic violence & protection orders",
         "care_and_protection_of_children": "Care & protection of children",
+        "neglect": "Neglect",
         "relationship_property_and_asset_division": "Relationship property & asset division",
+        "child_support": "Child support",
+        "misconduct_by_justice_system_professionals": "Misconduct by justice system professionals",
+        "court_administration_and_institutional_news": "Court administration & institutional news",
         "court_process_and_delays": "Court process & delays",
         "policy_and_law_reform": "Policy & law reform",
         "judicial_decision_or_ruling": "Judicial decision or ruling",
@@ -163,9 +171,10 @@ description: An early-stage sentiment and category analysis of New Zealand news 
 {% if mediaCoverage.summary.byPerpetratorGender | length or mediaCoverage.summary.byVictimGender | length %}
 <section class="content-section bg-light">
     <h2>Domestic Violence &amp; Protection Order Coverage: Gender of Parties</h2>
-    <p>For articles specifically about domestic violence or protection orders, we separately record the alleged perpetrator's and alleged victim's gender as reported in the article. This is one of the more contested questions in family court media coverage — whether reporting reflects a consistent pattern by gender, or reflects individual cases without a discernible pattern. With so few articles tagged so far, no pattern can be claimed either way; this table exists so the question can be tracked honestly as the sample grows.</p>
+    <p>For articles specifically about domestic violence or protection orders, we separately record the alleged perpetrator's and alleged victim's gender as reported in the article, and whether the victim is the perpetrator's intimate partner/ex-partner, a child, or another family member — a child victim (e.g. a caregiver-fatality case) is a fundamentally different pattern from intimate-partner violence, even where both happen to share the same gender breakdown. This is one of the more contested questions in family court media coverage — whether reporting reflects a consistent pattern by gender, or reflects individual cases without a discernible pattern. With so few articles tagged so far, no pattern can be claimed either way; this table exists so the question can be tracked honestly as the sample grows.</p>
 
     {% set genderLabels = { "male": "Male", "female": "Female", "both": "Both / multiple", "unspecified": "Not stated", "not_applicable": "Not applicable" } %}
+    {% set victimRelationshipLabels = { "intimate_partner_or_ex_partner": "Intimate partner / ex-partner", "child": "Child", "other_family_member": "Other family member", "unspecified": "Not stated" } %}
 
     <div class="cards">
         <div class="card">
@@ -188,6 +197,19 @@ description: An early-stage sentiment and category analysis of New Zealand news 
                     {% for key, count in mediaCoverage.summary.byVictimGender %}
                     <tr>
                         <td>{{ genderLabels[key] or key }}</td>
+                        <td>{{ count }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <div class="card">
+            <h3>Alleged Victim's Relationship to Perpetrator</h3>
+            <table class="data-table">
+                <tbody>
+                    {% for key, count in mediaCoverage.summary.byVictimRelationship %}
+                    <tr>
+                        <td>{{ victimRelationshipLabels[key] or key }}</td>
                         <td>{{ count }}</td>
                     </tr>
                     {% endfor %}
@@ -234,7 +256,7 @@ description: An early-stage sentiment and category analysis of New Zealand news 
         <p><strong>Discovery:</strong> Articles are surfaced from New Zealand news RSS feeds and targeted news searches for family-court-related terms, run on a recurring schedule.</p>
         <p><strong>Coverage completeness:</strong> Systematic, scheduled discovery began in late August 2026. A small number of older articles (from as far back as May 2025) are included because they were added individually after being noticed by chance, not through systematic search — dates on this page reflect each article's real publication date, not when it was added. Treat any gaps in coverage before late August 2026 as reflecting incomplete search rather than an absence of reporting during that period.</p>
         <p><strong>Relevance screening:</strong> A human reviewer first confirms whether each article is genuinely about the New Zealand family court system before any further tagging occurs — articles that merely contain a matching keyword but aren't actually relevant (e.g. unrelated overseas stories) are excluded from this page entirely rather than folded into a miscellaneous category.</p>
-        <p><strong>Categorisation:</strong> Relevant articles are classified by one primary category, overall sentiment, and stance toward the court system specifically, plus (for domestic violence and protection order coverage) the alleged perpetrator's and victim's gender as reported. Investigative articles that genuinely span more than one topic can also be tagged with additional categories, shown as "Also:" against the primary category in the table below — the "Coverage by Category" chart above counts primary categories only, so its totals stay one-per-article.</p>
+        <p><strong>Categorisation:</strong> Relevant articles are classified by one primary category, overall sentiment, and stance toward the court system specifically, plus (for domestic violence and protection order coverage) the alleged perpetrator's and victim's gender as reported, and the victim's relationship to the perpetrator (intimate partner/ex-partner, child, or other family member) — kept separate from gender since a child victim represents a fundamentally different pattern from intimate-partner violence. Investigative articles that genuinely span more than one topic can also be tagged with additional categories, shown as "Also:" against the primary category in the table below — the "Coverage by Category" chart above counts primary categories only, so its totals stay one-per-article.</p>
         <p><strong>Independence:</strong> Tagging is performed by a human reviewer against a fixed set of categories, not selected to support a predetermined conclusion. As the volunteer Media Curator programme grows, we intend to publish inter-rater agreement figures once more than one reviewer is tagging articles.</p>
     </div>
 </section>

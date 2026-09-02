@@ -1,8 +1,21 @@
 {
-  "generatedAt" : "2026-09-01T23:35:23.310472Z",
-  "totalTagged" : 37,
-  "totalRelevant" : 29,
+  "generatedAt" : "2026-09-02T07:15:23.910483Z",
+  "totalTagged" : 77,
+  "totalRelevant" : 62,
   "articles" : [ {
+    "title" : "Inside the Family Court: Do custody rulings really put kids first? | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/national/584378/inside-the-family-court-do-custody-rulings-really-put-kids-first",
+    "publishedAt" : "2026-01-18T20:38:00Z",
+    "category" : "custody_and_parenting_orders",
+    "secondaryCategories" : [ "domestic_violence_and_protection_orders", "care_and_protection_of_children", "court_process_and_delays", "policy_and_law_reform", "judicial_decision_or_ruling" ],
+    "sentiment" : "mixed",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T07:15:18.201496Z"
+  }, {
     "title" : "Inside the Family Court: Do custody rulings really put kids first? - NZ Herald",
     "source" : "NZ Herald",
     "url" : "https://www.nzherald.co.nz/nz/inside-the-family-court-do-custody-rulings-really-put-kids-first/NPJVKUF2F5EINMXSZAK4BP2WFE/",
@@ -11,9 +24,452 @@
     "secondaryCategories" : [ "domestic_violence_and_protection_orders", "care_and_protection_of_children", "court_process_and_delays", "policy_and_law_reform", "judicial_decision_or_ruling" ],
     "sentiment" : "mixed",
     "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T07:15:18.188924Z"
+  }, {
+    "title" : "Girl gives Family Court judge PowerPoint presentation on why she doesn’t want to see her father - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/girl-gives-family-court-judge-a-20-slide-powerpoint-presentation-on-why-she-doesnt-want-to-see-her-father/W7FCLPRVHREG7IXPHRFXWALT3E/",
+    "publishedAt" : "2026-05-16T21:23:53.177Z",
+    "category" : "care_and_protection_of_children",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "domestic_violence_and_protection_orders" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-02T07:14:47.670575Z"
+  }, {
+    "title" : "Family Court orders no contact after father’s ‘uninhibited, dysregulated’ and abusive behaviour | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/crime-and-justice/945843/family-court-orders-no-contact-after-father-s-uninhibited-dysregulated-and-abusive-behaviour",
+    "publishedAt" : null,
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "care_and_protection_of_children" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T07:14:35.767479Z"
+  }, {
+    "title" : "Man wins Family Court order to adopt own surrogate son, despite concerns from judge | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/crime-and-justice/586198/man-wins-family-court-order-to-adopt-own-surrogate-son-despite-concerns-from-judge",
+    "publishedAt" : null,
+    "category" : "care_and_protection_of_children",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "court_process_and_delays", "judicial_decision_or_ruling" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
     "perpetratorGender" : null,
     "victimGender" : null,
-    "taggedAt" : "2026-09-01T23:23:45.037031Z"
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T07:14:25.587723Z"
+  }, {
+    "title" : "Woman steps in to protect baby with fractured skull after Oranga Tamariki fail to act | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/crime-and-justice/596869/woman-steps-in-to-protect-baby-with-fractured-skull-after-oranga-tamariki-fail-to-act",
+    "publishedAt" : "2026-05-31T00:00:00Z",
+    "category" : "misconduct_by_justice_system_professionals",
+    "secondaryCategories" : [ "domestic_violence_and_protection_orders", "care_and_protection_of_children", "neglect" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : "both",
+    "victimGender" : "female",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-02T07:11:36.187735Z"
+  }, {
+    "title" : "Family Court judge describes child affected by mother’s addiction as ‘extremely disturbed’ - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/family-court-judge-describes-child-affected-by-mothers-addiction-as-extremely-disturbed/JU2IM5M4YBCB7BP4X6C7SW5D2M/",
+    "publishedAt" : "2026-08-15T01:00:00Z",
+    "category" : "custody_and_parenting_orders",
+    "secondaryCategories" : [ "neglect", "care_and_protection_of_children" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "female",
+    "victimGender" : "male",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-02T07:11:29.240114Z"
+  }, {
+    "title" : "Oranga Tamariki probing claims of force being used against youth | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/regions/1072566/oranga-tamariki-probing-claims-of-force-being-used-against-youth",
+    "publishedAt" : "2026-08-21T00:00:00Z",
+    "category" : "misconduct_by_justice_system_professionals",
+    "secondaryCategories" : [ "care_and_protection_of_children" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_specific_parties",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T07:01:20.506095Z"
+  }, {
+    "title" : "Family Court orders no contact after father’s ‘uninhibited, dysregulated’ and abusive behaviour - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/family-court-orders-no-contact-after-fathers-uninhibited-dysregulated-and-abusive-behaviour/RGNR4JY4DFERDB6OHKJW3C66E4/",
+    "publishedAt" : "2026-08-08T22:43:47.377Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "care_and_protection_of_children" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T06:43:15.383966Z"
+  }, {
+    "title" : "Justice Ministry to be reviewed, as minister's confidence in agency 'seriously shaken' | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/politics/894680/justice-ministry-to-be-reviewed-as-minister-s-confidence-in-agency-seriously-shaken",
+    "publishedAt" : null,
+    "category" : "misconduct_by_justice_system_professionals",
+    "secondaryCategories" : [ ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T06:42:06.215489Z"
+  }, {
+    "title" : "Trauma and heavy caseloads push a quarter of NZ lawyers toward the exit - Newsroom",
+    "source" : "Newsroom",
+    "url" : "https://newsroom.co.nz/2026/08/06/trauma-and-heavy-caseloads-push-a-quarter-of-nz-lawyers-toward-the-exit/",
+    "publishedAt" : "2026-08-05T17:00:00Z",
+    "category" : "statistics_or_research_report",
+    "secondaryCategories" : [ "policy_and_law_reform" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T06:38:50.259302Z"
+  }, {
+    "title" : "Te Au Reka’s Courts Portal central to major changes in how lawyers navigate the justice system | NZ Lawyer",
+    "source" : "www.thelawyermag.com",
+    "url" : "https://www.thelawyermag.com/nz/news/general/te-au-rekas-courts-portal-central-to-major-changes-in-how-lawyers-navigate-the-justice-system/587273",
+    "publishedAt" : "2026-08-25T03:43:39Z",
+    "category" : "court_administration_and_institutional_news",
+    "secondaryCategories" : [ ],
+    "sentiment" : "positive",
+    "stance" : "supportive_of_court_system",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T06:32:19.555732Z"
+  }, {
+    "title" : "Dad banned from seeing daughters after relentless false abuse claims | Stuff",
+    "source" : "Stuff",
+    "url" : "https://www.stuff.co.nz/nz-news/361018032/dad-banned-seeing-daughters-after-relentless-false-abuse-claims",
+    "publishedAt" : "2026-08-09T21:40:15Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "care_and_protection_of_children" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T06:30:15.492082Z"
+  }, {
+    "title" : "'More should have been done': Oranga Tamariki says changes made following death of baby killed by his father | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/crime-and-justice/596689/more-should-have-been-done-oranga-tamariki-says-changes-made-following-death-of-baby-killed-by-his-father",
+    "publishedAt" : null,
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "care_and_protection_of_children", "misconduct_by_justice_system_professionals" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : "male",
+    "victimGender" : "male",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-02T02:33:45.723748Z"
+  }, {
+    "title" : "Woman steps in to protect baby with head injuries when Oranga Tamariki fails to act - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/woman-steps-in-to-protect-baby-with-head-injuries-when-oranga-tamariki-fails-to-act/LL57K5QOW5FQZLXS7B4SX2JQHE/",
+    "publishedAt" : "2026-05-30T22:30:00Z",
+    "category" : "misconduct_by_justice_system_professionals",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "domestic_violence_and_protection_orders", "care_and_protection_of_children" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : "both",
+    "victimGender" : "female",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-02T02:32:23.302525Z"
+  }, {
+    "title" : "Girl gives Family Court judge PowerPoint presentation on why she doesn’t want to see her father | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/crime-and-justice/595465/girl-gives-family-court-judge-powerpoint-presentation-on-why-she-doesn-t-want-to-see-her-father",
+    "publishedAt" : null,
+    "category" : "care_and_protection_of_children",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "domestic_violence_and_protection_orders" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-02T02:20:28.459168Z"
+  }, {
+    "title" : "Can my daughter get a protection order against her ex-boyfriend? -The Ex-Files by Jeremy Sutton - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/business/can-my-daughter-get-a-protection-order-against-her-ex-boyfriend-the-ex-files-by-jeremy-sutton/premium/S7AY7CGLNJDFXFFPAO627XEDNM/",
+    "publishedAt" : "2026-06-21T00:00:00Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ ],
+    "sentiment" : "positive",
+    "stance" : "supportive_of_court_system",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "unspecified",
+    "taggedAt" : "2026-09-02T02:19:03.400650Z"
+  }, {
+    "title" : "Ex-partner let into woman's home by police despite protection order against him | RNZ",
+    "source" : "RNZ",
+    "url" : "https://www.rnz.co.nz/news/crime-and-justice/617261/ex-partner-let-into-woman-s-home-by-police-despite-protection-order-against-him",
+    "publishedAt" : "2026-06-23T00:00:00Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "misconduct_by_justice_system_professionals" ],
+    "sentiment" : "positive",
+    "stance" : "supportive_of_court_system",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "unspecified",
+    "taggedAt" : "2026-09-02T02:17:32.174032Z"
+  }, {
+    "title" : "Experts weigh in on custody case of woman falsely labelled schizophrenic by ex-partner - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/experts-weigh-in-on-custody-case-of-woman-falsely-labelled-schizophrenic-by-ex-partner/premium/Q3LSJANSGZCC3LOTN2DWYP7X3Y/",
+    "publishedAt" : "2026-07-30T17:00:00Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "court_process_and_delays" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T02:06:57.283788Z"
+  }, {
+    "title" : "Hawke’s Bay woman wins Family Court battle to marry her second cousin - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/hawkes-bay-woman-wins-family-court-battle-to-marry-her-second-cousin/RFAKRRPDJFBPLLQD3UEMTMO7FE/",
+    "publishedAt" : "2026-07-04T00:00:00Z",
+    "category" : "judicial_decision_or_ruling",
+    "secondaryCategories" : [ ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T01:30:07.065245Z"
+  }, {
+    "title" : "The $24m 'illusion' of programmes to stop family violence | Stuff",
+    "source" : "Stuff",
+    "url" : "https://www.stuff.co.nz/nz-news/360991911/24m-illusion-programmes-meant-stop-family-violence",
+    "publishedAt" : "2026-06-14T16:00:00Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ ],
+    "sentiment" : "neutral",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T01:27:04.141894Z"
+  }, {
+    "title" : "Police apologise after woman wrongly removed from home despite protection order | Stuff",
+    "source" : "Stuff",
+    "url" : "https://www.stuff.co.nz/nz-news/360996677/police-apologise-after-woman-wrongly-removed-home-despite-protection-order",
+    "publishedAt" : "2026-06-22T23:02:45Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "care_and_protection_of_children", "misconduct_by_justice_system_professionals" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_specific_parties",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T01:22:06.222278Z"
+  }, {
+    "title" : "Can I appeal Family Court and High Court decisions that uphold custody orders for my daughters? – The Ex-Files - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/business/can-i-appeal-the-family-court-and-high-court-decisions-to-uphold-custody-orders-for-my-daughters-the-ex-files/premium/B5RLSH5WRJAMHIIATWZOI4OB2M/",
+    "publishedAt" : "2026-07-26T00:01:00Z",
+    "category" : "court_process_and_delays",
+    "secondaryCategories" : [ "custody_and_parenting_orders" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T01:19:57.455337Z"
+  }, {
+    "title" : "Family Court rejects dad’s claim ex-wife was wealthier in child support case - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/family-court-rejects-dads-claim-ex-wife-was-wealthier-in-child-support-case/SU6PHPSNRNBE3N36FDRMGMANMI/",
+    "publishedAt" : "2026-05-31T00:30:00Z",
+    "category" : "child_support",
+    "secondaryCategories" : [ ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T01:17:12.981938Z"
+  }, {
+    "title" : "A woman's $20,000 bill for protection from her ex | Stuff",
+    "source" : "Stuff",
+    "url" : "https://www.stuff.co.nz/nz-news/360985847/womans-20000-bill-protection-her-ex",
+    "publishedAt" : "2026-05-31T16:00:00Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "intimate_partner_or_ex_partner",
+    "taggedAt" : "2026-09-02T01:15:11.349117Z"
+  }, {
+    "title" : "District Court judge La-Verne King named next principal Family Court judge | NZ Lawyer",
+    "source" : "www.thelawyermag.com",
+    "url" : "https://www.thelawyermag.com/nz/news/general/district-court-judge-la-verne-king-named-next-principal-family-court-judge/581963",
+    "publishedAt" : "2026-07-10T06:55:00Z",
+    "category" : "court_administration_and_institutional_news",
+    "secondaryCategories" : [ ],
+    "sentiment" : "positive",
+    "stance" : "supportive_of_court_system",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T01:13:36.151586Z"
+  }, {
+    "title" : "Father loses child support fight after arguing ex-wife has access to hidden $250k asset pool | Stuff",
+    "source" : "Stuff",
+    "url" : "https://www.stuff.co.nz/nz-news/360986385/father-loses-child-support-fight-after-arguing-ex-wife-has-access-hidden-250k-asset-pool",
+    "publishedAt" : "2026-05-31T01:25:16Z",
+    "category" : "child_support",
+    "secondaryCategories" : [ "judicial_decision_or_ruling" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T01:10:32.066186Z"
+  }, {
+    "title" : "Judge La-Verne King appointed as Principal Family Court Judge, first of Māori descent to hold the role – Te Ao Māori News",
+    "source" : "www.teaonews.co.nz",
+    "url" : "https://www.teaonews.co.nz/2026/07/04/judge-la-verne-king-appointed-as-principal-family-court-judge-first-of-maori-descent-to-hold-the-role/",
+    "publishedAt" : null,
+    "category" : "court_administration_and_institutional_news",
+    "secondaryCategories" : [ ],
+    "sentiment" : "positive",
+    "stance" : "supportive_of_court_system",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T01:04:21.397809Z"
+  }, {
+    "title" : "Rollout of virtual Family Court case flow management system Te Au Reka to be delayed: government - Australasian Lawyer",
+    "source" : "Australasian Lawyer",
+    "url" : "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWGZMVlFqcWlraXR1UU9tT2dLbVBtbk5SYjM0SlpHS2szMGtWNEc3dE1EZVpKSnFHc2lLZ3BKbEozYXgxX2RteURmVXM5NFFaZTY3bTljYzhqS3ltTnFuSTNfMkd1ZUN2UWp2dV85Tk1UdTQzV2V6TTRrMWtYZlVVWGFqQno4MkVoVE1kSm9sbFk5NFpzalFUV1BvanlhMjROaEdIeFYxYUhxakd3bzN1WGd6YVhCUEdSTUdKOUNHODRCUVphM3VadTFvdmNmN2MyRGZ5T3BaRm9Td09Ga29lVg?oc=5",
+    "publishedAt" : "2025-10-10T07:00:00Z",
+    "category" : "court_administration_and_institutional_news",
+    "secondaryCategories" : [ "court_process_and_delays" ],
+    "sentiment" : "negative",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T01:02:34.646129Z"
+  }, {
+    "title" : "The Post",
+    "source" : "The Post",
+    "url" : "https://www.thepost.co.nz/nz-news/360985689/no-child-should-be-held-police-cell-childrens-commissioner-concerned-custody-stats",
+    "publishedAt" : null,
+    "category" : "misconduct_by_justice_system_professionals",
+    "secondaryCategories" : [ "care_and_protection_of_children" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_specific_parties",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T00:58:39.186701Z"
+  }, {
+    "title" : "Seven Oranga Tamariki workers on trial accused of assaulting two teens at youth justice facility - RNZ",
+    "source" : "RNZ",
+    "url" : "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUk0waUFOMTJSTGprSlNJZzRfTHkxN2lrbDhFR09kVUNGVUdWUlplQmFCdzdHdkdFTE5rYk1lckduTXJVOEdUOGVIOEloNnVaVjJ3aF94ejhNcTFTZ2ZrUG9pdkQ2M1BuUVVWNlRDYnNIYjR3Vy1VZnRRWm1wSlZlUHV1clA1ODFSWi1ZWkFoQy14VnFxbmlXMU9OcUFxeHBQamt3UDNkbE1oc3AzdTlTT1UwbkprT3hhLU5fMkJWMnF4cGRhTE1STi0yNFNQOUp1U0FxbzVGMGxTdmQtemljeg?oc=5",
+    "publishedAt" : "2026-03-18T07:00:00Z",
+    "category" : "misconduct_by_justice_system_professionals",
+    "secondaryCategories" : [ "care_and_protection_of_children" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T00:50:52.620361Z"
+  }, {
+    "title" : "The murder of Malachi Subecz: Inside the custody battle that left him with killer caregiver - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPOF84YllaNGVtcXZCdUtEeFRIYTVnNGlhRngzWURqUzdUUVhvckFfUkFVVXEydTIzWnlDNzhVUFNpMy1kNHRjZWFRTkJDX2xvMkw4X19CaHRNUXZLT2ZLUndQdkZwUkFGOE5EY09Da0RDb0FONGI5WFVwU3IzVlNObGctTVlmV1NINEVZV1k4cXRzN1NYeUp5aU9sZnlfNnVpMTAtOFlKQVF1VE0xVV9PYUhweHE5TU9vODBxZ3pma2l2Mk9XUXRpX2ZEcE1YYzFQMlJNelFORFgza0o1c2NnMTFtWXBrWktpbUdqNQ?oc=5",
+    "publishedAt" : "2026-02-10T08:00:00Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "care_and_protection_of_children" ],
+    "sentiment" : "negative",
+    "stance" : "critical_of_court_system",
+    "perpetratorGender" : "female",
+    "victimGender" : "male",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-02T00:35:34.916398Z"
+  }, {
+    "title" : "Can you use generative AI in Family Court? The rules and risks – Ex-Files - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/business/can-you-use-generative-ai-in-family-court-the-rules-and-risks-ex-files/premium/LLKLFQFTCREJ3CGVQXIJUXDO5M/",
+    "publishedAt" : "2026-04-19T00:00:00Z",
+    "category" : "policy_and_law_reform",
+    "secondaryCategories" : [ "court_process_and_delays" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T00:26:02.637170Z"
+  }, {
+    "title" : "New Zealand man wins Family Court order to adopt own surrogate son, despite concerns from judge - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/new-zealand-man-wins-family-court-order-to-adopt-own-surrogate-son-despite-concerns-from-judge/LLZAGJ3VE5AX7FBSA3U2ERJ7X4/",
+    "publishedAt" : "2026-02-07T00:00:00Z",
+    "category" : "care_and_protection_of_children",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "court_process_and_delays", "judicial_decision_or_ruling" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T00:23:52.939294Z"
+  }, {
+    "title" : "Supreme Court stresses serious implications of AI misuse in family law case | NZ Lawyer",
+    "source" : "www.thelawyermag.com",
+    "url" : "https://www.thelawyermag.com/nz/practice-areas/litigation-dispute-resolution/supreme-court-stresses-serious-implications-of-ai-misuse-in-family-law-case/565223",
+    "publishedAt" : "2026-02-13T00:55:29Z",
+    "category" : "court_process_and_delays",
+    "secondaryCategories" : [ "domestic_violence_and_protection_orders" ],
+    "sentiment" : "neutral",
+    "stance" : "critical_of_specific_parties",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T00:22:11.684718Z"
+  }, {
+    "title" : "Oranga Tamariki manager loses ERA challenge over bullying findings - NZ Herald",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/oranga-tamariki-manager-loses-era-challenge-over-bullying-findings/XURIIPTIYJFG5DRKZ576K6CT3E/",
+    "publishedAt" : "2026-01-14T07:00:00Z",
+    "category" : "misconduct_by_justice_system_professionals",
+    "secondaryCategories" : [ ],
+    "sentiment" : "negative",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : null,
+    "victimGender" : null,
+    "victimRelationship" : null,
+    "taggedAt" : "2026-09-02T00:17:40.416134Z"
   }, {
     "title" : "Bitter, 10-year divorce case thrown out of court, judge cites ‘need for finality’ - NZ Herald",
     "source" : "NZ Herald",
@@ -25,18 +481,20 @@
     "stance" : "neutral_or_descriptive",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T23:19:41.545726Z"
   }, {
     "title" : "Family Court rules in favour of woman who was abused, strangled by policeman husband | RNZ",
     "source" : "RNZ",
     "url" : "https://www.rnz.co.nz/news/crime-and-justice/581747/family-court-rules-in-favour-of-woman-who-was-abused-strangled-by-policeman-husband",
     "publishedAt" : "2025-12-13T00:00:00Z",
-    "category" : "relationship_property_and_asset_division",
-    "secondaryCategories" : [ "judicial_decision_or_ruling" ],
+    "category" : "misconduct_by_justice_system_professionals",
+    "secondaryCategories" : [ "domestic_violence_and_protection_orders", "judicial_decision_or_ruling" ],
     "sentiment" : "neutral",
     "stance" : "neutral_or_descriptive",
-    "perpetratorGender" : null,
-    "victimGender" : null,
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T23:18:19.336566Z"
   }, {
     "title" : "Man seeking half of family home bought by ex granted 15% share in Family Court ruling - NZ Herald",
@@ -49,6 +507,7 @@
     "stance" : "supportive_of_court_system",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T23:15:06.424225Z"
   }, {
     "title" : "Specialist says Family Court needs to be screened for violence | RNZ",
@@ -61,6 +520,7 @@
     "stance" : "critical_of_court_system",
     "perpetratorGender" : "male",
     "victimGender" : "female",
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T23:12:49.557322Z"
   }, {
     "title" : "High Court judge ends decade-long legal tussle by instructing divorcing couple to ‘move on’ | NZ Lawyer",
@@ -73,6 +533,7 @@
     "stance" : "neutral_or_descriptive",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T23:09:04.664787Z"
   }, {
     "title" : "Media application in relation to Tom Phillips suppression granted, sent back to Family Court | Stuff",
@@ -85,6 +546,7 @@
     "stance" : "neutral_or_descriptive",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T23:00:51.032185Z"
   }, {
     "title" : "Experts urge compromise as Family Court orders kick in for Christmas day - NZ Herald",
@@ -97,6 +559,7 @@
     "stance" : "neutral_or_descriptive",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T22:59:09.058365Z"
   }, {
     "title" : "The Post",
@@ -109,6 +572,7 @@
     "stance" : "critical_of_court_system",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T22:50:38.045109Z"
   }, {
     "title" : "‘I would be dead without them’: New service aims to help people struggling to leave unsafe relationships due to legal costs - Stuff",
@@ -121,6 +585,7 @@
     "stance" : "critical_of_court_system",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T22:34:01.625760Z"
   }, {
     "title" : "'It's people's lives': Concerns adoption fix is flawed - RNZ",
@@ -133,18 +598,20 @@
     "stance" : "critical_of_court_system",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T22:30:28.582264Z"
   }, {
     "title" : "Former Bay of Plenty Family Court lawyer Paulette Main imprisoned for defrauding legal support scheme - NZ Herald",
     "source" : "NZ Herald",
     "url" : "https://www.nzherald.co.nz/nz/former-bay-of-plenty-family-court-lawyer-paulette-main-imprisoned-for-defrauding-legal-support-scheme/RMMQ77UHMVBJXJP3AVNBJX7RWE/",
     "publishedAt" : "2025-10-09T05:00:00Z",
-    "category" : "other",
+    "category" : "misconduct_by_justice_system_professionals",
     "secondaryCategories" : [ ],
     "sentiment" : "negative",
     "stance" : "critical_of_court_system",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T22:28:10.793521Z"
   }, {
     "title" : "Hawke's Bay parents' argument over whether their daughter should attend private or public school goes to court, again | RNZ",
@@ -157,6 +624,7 @@
     "stance" : "supportive_of_court_system",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T22:25:51.306496Z"
   }, {
     "title" : "'Intense' retired surgeon fights against compulsory mental health treatment order - NZ Herald",
@@ -169,19 +637,8 @@
     "stance" : "neutral_or_descriptive",
     "perpetratorGender" : "male",
     "victimGender" : "female",
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T22:14:24.191084Z"
-  }, {
-    "title" : "Rollout of virtual Family Court case flow management system Te Au Reka to be delayed: government - Australasian Lawyer",
-    "source" : "Australasian Lawyer",
-    "url" : "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWGZMVlFqcWlraXR1UU9tT2dLbVBtbk5SYjM0SlpHS2szMGtWNEc3dE1EZVpKSnFHc2lLZ3BKbEozYXgxX2RteURmVXM5NFFaZTY3bTljYzhqS3ltTnFuSTNfMkd1ZUN2UWp2dV85Tk1UdTQzV2V6TTRrMWtYZlVVWGFqQno4MkVoVE1kSm9sbFk5NFpzalFUV1BvanlhMjROaEdIeFYxYUhxakd3bzN1WGd6YVhCUEdSTUdKOUNHODRCUVphM3VadTFvdmNmN2MyRGZ5T3BaRm9Td09Ga29lVg?oc=5",
-    "publishedAt" : "2025-10-10T07:00:00Z",
-    "category" : "court_process_and_delays",
-    "secondaryCategories" : [ ],
-    "sentiment" : "negative",
-    "stance" : "neutral_or_descriptive",
-    "perpetratorGender" : null,
-    "victimGender" : null,
-    "taggedAt" : "2026-09-01T22:10:00.169772Z"
   }, {
     "title" : "Is the Family Court system getting the balance right? - RNZ",
     "source" : "RNZ",
@@ -193,6 +650,7 @@
     "stance" : "neutral_or_descriptive",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T22:04:25.751948Z"
   }, {
     "title" : "Supreme Court blocks mother’s attempt to appeal parenting order - Australasian Lawyer",
@@ -205,6 +663,7 @@
     "stance" : "neutral_or_descriptive",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T21:20:21.344124Z"
   }, {
     "title" : "Oranga Tamariki ordered to pay $108,000 over battle to remove Māori child from Pākehā foster parents - NZ Herald",
@@ -217,6 +676,7 @@
     "stance" : "supportive_of_court_system",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T21:17:42.742338Z"
   }, {
     "title" : "Self-representing litigants are continuing to strain the court system - NZ Herald",
@@ -229,6 +689,7 @@
     "stance" : "critical_of_specific_parties",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T21:05:02.125840Z"
   }, {
     "title" : "'Salt in the wound': Anger as ex uses legal aid to fight case he lost in Family Court - NZ Herald",
@@ -241,6 +702,7 @@
     "stance" : "critical_of_court_system",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T21:02:29.117917Z"
   }, {
     "title" : "MSD criticised by Family Court Judge for legal appeal ‘distraction’ - RNZ",
@@ -253,6 +715,7 @@
     "stance" : "critical_of_specific_parties",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T20:56:28.539335Z"
   }, {
     "title" : "Legal aid: What is it and who’s entitled to it - NZ Herald",
@@ -265,6 +728,7 @@
     "stance" : "neutral_or_descriptive",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T18:50:56.286554Z"
   }, {
     "title" : "'One day is too long': Victims wait days for protection orders to be served",
@@ -277,6 +741,7 @@
     "stance" : "critical_of_specific_parties",
     "perpetratorGender" : "unspecified",
     "victimGender" : "unspecified",
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T18:49:56.374396Z"
   }, {
     "title" : "Continued rise in legal self-representation adding to justice delay concerns - NZ Herald",
@@ -289,19 +754,8 @@
     "stance" : "critical_of_specific_parties",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T18:44:22.348434Z"
-  }, {
-    "title" : "Inside the Family Court: Do custody rulings really put kids first? | RNZ",
-    "source" : "RNZ",
-    "url" : "https://www.rnz.co.nz/news/national/584378/inside-the-family-court-do-custody-rulings-really-put-kids-first",
-    "publishedAt" : "2026-01-18T20:38:00Z",
-    "category" : "custody_and_parenting_orders",
-    "secondaryCategories" : [ ],
-    "sentiment" : "mixed",
-    "stance" : "neutral_or_descriptive",
-    "perpetratorGender" : null,
-    "victimGender" : null,
-    "taggedAt" : "2026-09-01T09:27:10.640646Z"
   }, {
     "title" : "Judge finds dad’s livestreams about ex were abusive, harmful - RNZ",
     "source" : "RNZ",
@@ -313,6 +767,7 @@
     "stance" : "neutral_or_descriptive",
     "perpetratorGender" : "male",
     "victimGender" : "female",
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T08:34:48.158547Z"
   }, {
     "title" : "The Law Association tells Parliament expanding community magistrates' criminal trial powers will be counterproductive - lawnews.nz",
@@ -325,18 +780,20 @@
     "stance" : "critical_of_court_system",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T08:28:59.541942Z"
   }, {
     "title" : "Ministry of Justice paid $500k to suspended worker - B2B News",
     "source" : "B2B News",
     "url" : "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdjBWSnNzVWxnYjZhT1dRMXVqOHVYUVFhVXhZQnhUZFNtSDFCWTNxMUoxdWxMV2hhcnNrN0RoYU9hYm9wUDEyT2J1anJ6UXpFMXF1Nmc3Wnh3NHRfT2FYd0FNQkpZZ3lPRkxqajAwUHVKbWhPRlVNcVFsc3o0QlJLaDlhRQ?oc=5",
     "publishedAt" : "2026-08-29T21:40:09Z",
-    "category" : "policy_and_law_reform",
+    "category" : "misconduct_by_justice_system_professionals",
     "secondaryCategories" : [ ],
     "sentiment" : "negative",
     "stance" : "critical_of_court_system",
     "perpetratorGender" : null,
     "victimGender" : null,
+    "victimRelationship" : null,
     "taggedAt" : "2026-09-01T08:22:14.954680Z"
   }, {
     "title" : "Dad's 'story time' livestreams about ex crossed line into family violence, judge rules - NZ Herald",
@@ -349,57 +806,74 @@
     "stance" : "supportive_of_court_system",
     "perpetratorGender" : "male",
     "victimGender" : "female",
+    "victimRelationship" : null,
     "taggedAt" : "2026-08-31T13:37:03.733645Z"
   } ],
   "summary" : {
     "bySource" : {
-      "NZ Herald" : 12,
-      "RNZ" : 8,
-      "www.thelawyermag.com" : 1,
-      "Stuff" : 2,
-      "The Post" : 1,
+      "RNZ" : 17,
+      "NZ Herald" : 25,
+      "Newsroom" : 1,
+      "www.thelawyermag.com" : 4,
+      "Stuff" : 7,
+      "www.teaonews.co.nz" : 1,
       "Australasian Lawyer" : 2,
+      "The Post" : 2,
       "Newstalk ZB" : 1,
       "lawnews.nz" : 1,
       "B2B News" : 1
     },
     "byCategory" : {
-      "custody_and_parenting_orders" : 5,
-      "relationship_property_and_asset_division" : 4,
-      "domestic_violence_and_protection_orders" : 5,
-      "court_process_and_delays" : 9,
-      "other" : 1,
-      "care_and_protection_of_children" : 3,
-      "policy_and_law_reform" : 2
+      "custody_and_parenting_orders" : 6,
+      "care_and_protection_of_children" : 7,
+      "domestic_violence_and_protection_orders" : 16,
+      "misconduct_by_justice_system_professionals" : 10,
+      "statistics_or_research_report" : 1,
+      "court_administration_and_institutional_news" : 4,
+      "judicial_decision_or_ruling" : 1,
+      "court_process_and_delays" : 10,
+      "child_support" : 2,
+      "policy_and_law_reform" : 2,
+      "relationship_property_and_asset_division" : 3
     },
     "bySecondaryCategory" : {
-      "domestic_violence_and_protection_orders" : 3,
-      "care_and_protection_of_children" : 6,
-      "court_process_and_delays" : 3,
-      "policy_and_law_reform" : 2,
-      "judicial_decision_or_ruling" : 9,
-      "custody_and_parenting_orders" : 2,
+      "domestic_violence_and_protection_orders" : 10,
+      "care_and_protection_of_children" : 19,
+      "court_process_and_delays" : 9,
+      "policy_and_law_reform" : 4,
+      "judicial_decision_or_ruling" : 13,
+      "custody_and_parenting_orders" : 12,
+      "neglect" : 2,
+      "misconduct_by_justice_system_professionals" : 3,
       "case_study_or_personal_account" : 1
     },
     "bySentiment" : {
       "mixed" : 5,
-      "neutral" : 8,
-      "negative" : 12,
-      "positive" : 4
+      "neutral" : 23,
+      "negative" : 25,
+      "positive" : 9
     },
     "byStance" : {
-      "neutral_or_descriptive" : 13,
-      "supportive_of_court_system" : 4,
-      "critical_of_court_system" : 8,
-      "critical_of_specific_parties" : 4
+      "neutral_or_descriptive" : 27,
+      "critical_of_court_system" : 18,
+      "critical_of_specific_parties" : 8,
+      "supportive_of_court_system" : 9
     },
     "byPerpetratorGender" : {
-      "male" : 4,
+      "male" : 20,
+      "both" : 2,
+      "female" : 2,
       "unspecified" : 1
     },
     "byVictimGender" : {
-      "female" : 4,
+      "female" : 21,
+      "male" : 3,
       "unspecified" : 1
+    },
+    "byVictimRelationship" : {
+      "intimate_partner_or_ex_partner" : 9,
+      "child" : 7,
+      "unspecified" : 2
     }
   }
 }
