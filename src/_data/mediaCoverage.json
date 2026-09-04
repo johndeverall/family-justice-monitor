@@ -1,8 +1,36 @@
 {
-  "generatedAt" : "2026-09-02T17:35:48.163740Z",
-  "totalTagged" : 75,
-  "totalRelevant" : 61,
+  "generatedAt" : "2026-09-04T09:38:05.784132Z",
+  "totalTagged" : 85,
+  "totalRelevant" : 63,
   "articles" : [ {
+    "title" : "Father jailed for 13 years after raping young daughter; sexually abusing and filming friends during sleepovers - NZ Herald",
+    "journalist" : "Tracy Neal",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/crime/father-jailed-for-13-years-after-raping-young-daughter-and-sexually-abusing-filming-friends-during-sleepovers/EV75F2NIBBG4FABNRR7QZMX7EA/",
+    "publishedAt" : "2026-09-04T05:29:00Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "custody_and_parenting_orders", "care_and_protection_of_children" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "male",
+    "victimGender" : "female",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-04T09:25:52.370850Z"
+  }, {
+    "title" : "Hakyung Lee, who killed her children, has non-parole period cut from 17 to 10 years - NZ Herald",
+    "journalist" : "Ric Stevens",
+    "source" : "NZ Herald",
+    "url" : "https://www.nzherald.co.nz/nz/hakyung-lee-who-killed-her-children-has-non-parole-period-cut-from-17-to-10-years/OG5FERHRUNG5NJKERFNAPBGDO4/",
+    "publishedAt" : "2026-09-03T05:17:05.149Z",
+    "category" : "domestic_violence_and_protection_orders",
+    "secondaryCategories" : [ "care_and_protection_of_children", "neglect" ],
+    "sentiment" : "neutral",
+    "stance" : "neutral_or_descriptive",
+    "perpetratorGender" : "female",
+    "victimGender" : "both",
+    "victimRelationship" : "child",
+    "taggedAt" : "2026-09-03T10:21:52.331558Z"
+  }, {
     "title" : "Media application in relation to Tom Phillips suppression granted, sent back to Family Court | Stuff",
     "journalist" : "Jake Kenny",
     "source" : "Stuff",
@@ -859,10 +887,10 @@
   } ],
   "summary" : {
     "bySource" : {
+      "NZ Herald" : 26,
       "Stuff" : 7,
       "The Post" : 2,
       "RNZ" : 17,
-      "NZ Herald" : 24,
       "Newsroom" : 1,
       "www.thelawyermag.com" : 6,
       "www.teaonews.co.nz" : 1,
@@ -871,8 +899,8 @@
       "b2bnews.co.nz" : 1
     },
     "byCategory" : {
+      "domestic_violence_and_protection_orders" : 18,
       "custody_and_parenting_orders" : 6,
-      "domestic_violence_and_protection_orders" : 16,
       "care_and_protection_of_children" : 7,
       "misconduct_by_justice_system_professionals" : 10,
       "policy_and_law_reform" : 3,
@@ -883,41 +911,42 @@
       "relationship_property_and_asset_division" : 3
     },
     "bySecondaryCategory" : {
+      "custody_and_parenting_orders" : 13,
+      "care_and_protection_of_children" : 21,
+      "neglect" : 3,
       "domestic_violence_and_protection_orders" : 10,
-      "care_and_protection_of_children" : 19,
       "court_process_and_delays" : 9,
       "judicial_decision_or_ruling" : 13,
-      "custody_and_parenting_orders" : 12,
       "policy_and_law_reform" : 3,
-      "neglect" : 2,
       "misconduct_by_justice_system_professionals" : 3
     },
     "bySentiment" : {
-      "neutral" : 23,
+      "neutral" : 25,
       "negative" : 24,
       "mixed" : 5,
       "positive" : 9
     },
     "byStance" : {
-      "neutral_or_descriptive" : 27,
+      "neutral_or_descriptive" : 29,
       "critical_of_court_system" : 18,
       "critical_of_specific_parties" : 7,
       "supportive_of_court_system" : 9
     },
     "byPerpetratorGender" : {
-      "male" : 22,
+      "male" : 23,
+      "female" : 3,
       "both" : 2,
-      "female" : 2,
       "unspecified" : 1
     },
     "byVictimGender" : {
+      "female" : 22,
+      "both" : 1,
       "male" : 5,
-      "female" : 21,
       "unspecified" : 1
     },
     "byVictimRelationship" : {
+      "child" : 9,
       "intimate_partner_or_ex_partner" : 11,
-      "child" : 7,
       "unspecified" : 2
     }
   }
